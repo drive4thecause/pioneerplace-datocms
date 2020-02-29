@@ -7,7 +7,7 @@
 /* Footer */
 
 	#footer {
-		@include banner-bg('../../images/banner.jpg');
+		@include banner-bg('../../images/the_pioneer_place_bg.jpg');
 		@include color-typography(accent4);
 		@include color-button(accent4);
 		@include color-section(accent4);

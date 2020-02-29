@@ -1,0 +1,74 @@
+uglyURLs: false
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
+menu:
+  footer: []
+  submenu: []
+  layouts: []
+  main:
+    - weight: 2
+      url: '#'
+      name: Page Layouts
+      identifier: layouts
+    - parent: layouts
+      weight: 1
+      url: /left-sidebar
+      name: Left Sidebar
+      identifier: normal1
+    - parent: layouts
+      weight: 2
+      url: /right-sidebar
+      name: Right Sidebar
+      identifier: normal2
+    - parent: layouts
+      weight: 3
+      url: /no-sidebar
+      name: No Sidebar
+      identifier: normal3
+    - parent: layouts
+      weight: 4
+      url: '#'
+      name: Submenu
+      identifier: submenu
+    - parent: submenu
+      weight: 1
+      url: '#'
+      name: Option One
+      identifier: normal4
+    - parent: submenu
+      weight: 2
+      url: '#'
+      name: Option Two
+      identifier: normal5
+    - parent: submenu
+      weight: 3
+      url: '#'
+      name: Option Three
+      identifier: normal6
+    - parent: submenu
+      weight: 4
+      url: '#'
+      name: Option Four
+      identifier: normal7
+params:
+  palettes:
+    green:
+      sass:
+        accent3: '#4c2654'
+        accent2: '#415426'
+        accent1: '#687847'
+        gradient2: '#eaede0'
+        gradient1: '#c4c9b9'
+    blue:
+      sass:
+        accent3: '#e286a9'
+        accent2: '#758ce1'
+        accent1: '#5f9dd2'
+        gradient2: '#e7232a'
+        gradient1: '#27a1e3'
+  palette: green
+  landing_template: home
+baseURL: /
+title: The Pioneer Place

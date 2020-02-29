@@ -1,0 +1,35 @@
+copyright:
+  text: '&copy;2020 thepioneerplace.org'
+  enabled: true
+contact_methods:
+  methods_col2:
+    - type: contact_with_text
+      text: (000) 000-0000
+      icon: fa-phone
+      title: Phone
+    - type: contact_with_link
+      url: '#'
+      text: information@untitled.tld
+      icon: fa-envelope-o
+      title: Email
+  methods_col1:
+    - type: contact_with_text
+      text: |-
+        Untitled Corp  
+        1234 Fictional Road  
+        Suite 5432  
+        Nashville, TN 00000
+      icon: fa-map-marker
+      title: Address
+  enabled: true
+about:
+  actions:
+    - is_scrolly: false
+      is_primary: false
+      url: /no-sidebar
+      label: Learn More
+  text: >-
+    Lorem ipsum dolor sit amet interdum mollis sapien. Sed amet ac lorem ipsum
+    interdum tempus sagittis lorem tempus.
+  title: Integer vitae sed feugiat
+  enabled: true
